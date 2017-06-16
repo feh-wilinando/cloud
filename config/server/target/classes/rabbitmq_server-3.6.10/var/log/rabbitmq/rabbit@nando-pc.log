@@ -1,0 +1,354 @@
+
+=INFO REPORT==== 26-May-2017::18:32:26 ===
+Starting RabbitMQ 3.6.10 on Erlang 19.3
+Copyright (C) 2007-2017 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 26-May-2017::18:32:26 ===
+node           : rabbit@nando-pc
+home dir       : /Users/nando
+config file(s) : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : 01FDO1oh1yB1e+37VkJi1Q==
+log            : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/log/rabbitmq/rabbit@nando-pc.log
+sasl log       : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/log/rabbitmq/rabbit@nando-pc-sasl.log
+database dir   : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/lib/rabbitmq/mnesia/rabbit@nando-pc
+
+=INFO REPORT==== 26-May-2017::18:32:27 ===
+Memory limit set to 5781MB of 14454MB total.
+
+=INFO REPORT==== 26-May-2017::18:32:27 ===
+Enabling free disk space monitoring
+
+=INFO REPORT==== 26-May-2017::18:32:27 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 26-May-2017::18:32:27 ===
+Limiting to approx 10140 file handles (9124 sockets)
+
+=INFO REPORT==== 26-May-2017::18:32:27 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 26-May-2017::18:32:27 ===
+Database directory at /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/lib/rabbitmq/mnesia/rabbit@nando-pc is empty. Initialising from scratch...
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+Starting rabbit_node_monitor
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+Adding vhost '/'
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+Creating user 'guest'
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+Setting user tags for user 'guest' to [administrator]
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+Setting permissions for 'guest' in '/' to '.*', '.*', '.*'
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 26-May-2017::18:32:28 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 26-May-2017::18:32:28 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 26-May-2017::18:34:11 ===
+accepting AMQP connection <0.379.0> (127.0.0.1:65028 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 26-May-2017::18:34:11 ===
+Connection <0.379.0> (127.0.0.1:65028 -> 127.0.0.1:5672) has a client-provided name: rabbitConnectionFactory#0
+
+=INFO REPORT==== 26-May-2017::18:34:11 ===
+connection <0.379.0> (127.0.0.1:65028 -> 127.0.0.1:5672 - rabbitConnectionFactory#0): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 26-May-2017::18:49:24 ===
+accepting AMQP connection <0.428.0> (127.0.0.1:65193 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 26-May-2017::18:49:24 ===
+Connection <0.428.0> (127.0.0.1:65193 -> 127.0.0.1:5672) has a client-provided name: rabbitConnectionFactory#0
+
+=INFO REPORT==== 26-May-2017::18:49:24 ===
+connection <0.428.0> (127.0.0.1:65193 -> 127.0.0.1:5672 - rabbitConnectionFactory#0): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 26-May-2017::18:52:46 ===
+closing AMQP connection <0.428.0> (127.0.0.1:65193 -> 127.0.0.1:5672 - rabbitConnectionFactory#0, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 26-May-2017::18:53:08 ===
+accepting AMQP connection <0.451.0> (127.0.0.1:65258 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 26-May-2017::18:53:08 ===
+Connection <0.451.0> (127.0.0.1:65258 -> 127.0.0.1:5672) has a client-provided name: rabbitConnectionFactory#0
+
+=INFO REPORT==== 26-May-2017::18:53:08 ===
+connection <0.451.0> (127.0.0.1:65258 -> 127.0.0.1:5672 - rabbitConnectionFactory#0): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 26-May-2017::18:54:15 ===
+closing AMQP connection <0.451.0> (127.0.0.1:65258 -> 127.0.0.1:5672 - rabbitConnectionFactory#0, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 26-May-2017::18:54:16 ===
+closing AMQP connection <0.379.0> (127.0.0.1:65028 -> 127.0.0.1:5672 - rabbitConnectionFactory#0, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 26-May-2017::18:54:46 ===
+accepting AMQP connection <0.475.0> (127.0.0.1:65273 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 26-May-2017::18:54:46 ===
+Connection <0.475.0> (127.0.0.1:65273 -> 127.0.0.1:5672) has a client-provided name: rabbitConnectionFactory#0
+
+=INFO REPORT==== 26-May-2017::18:54:46 ===
+connection <0.475.0> (127.0.0.1:65273 -> 127.0.0.1:5672 - rabbitConnectionFactory#0): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 26-May-2017::18:55:08 ===
+accepting AMQP connection <0.491.0> (127.0.0.1:65281 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 26-May-2017::18:55:08 ===
+Connection <0.491.0> (127.0.0.1:65281 -> 127.0.0.1:5672) has a client-provided name: rabbitConnectionFactory#0
+
+=INFO REPORT==== 26-May-2017::18:55:08 ===
+connection <0.491.0> (127.0.0.1:65281 -> 127.0.0.1:5672 - rabbitConnectionFactory#0): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 26-May-2017::18:58:19 ===
+closing AMQP connection <0.491.0> (127.0.0.1:65281 -> 127.0.0.1:5672 - rabbitConnectionFactory#0, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 26-May-2017::18:58:21 ===
+closing AMQP connection <0.475.0> (127.0.0.1:65273 -> 127.0.0.1:5672 - rabbitConnectionFactory#0, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 28-May-2017::20:38:18 ===
+Starting RabbitMQ 3.6.10 on Erlang 19.3
+Copyright (C) 2007-2017 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 28-May-2017::20:38:18 ===
+node           : rabbit@nando-pc
+home dir       : /Users/nando
+config file(s) : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : 01FDO1oh1yB1e+37VkJi1Q==
+log            : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/log/rabbitmq/rabbit@nando-pc.log
+sasl log       : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/log/rabbitmq/rabbit@nando-pc-sasl.log
+database dir   : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/lib/rabbitmq/mnesia/rabbit@nando-pc
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+Memory limit set to 5915MB of 14789MB total.
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+Enabling free disk space monitoring
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+Limiting to approx 10140 file handles (9124 sockets)
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+Starting rabbit_node_monitor
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 28-May-2017::20:38:19 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 28-May-2017::20:38:19 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 28-May-2017::20:38:22 ===
+accepting AMQP connection <0.306.0> (127.0.0.1:56205 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 28-May-2017::20:38:22 ===
+Connection <0.306.0> (127.0.0.1:56205 -> 127.0.0.1:5672) has a client-provided name: rabbitConnectionFactory#73
+
+=INFO REPORT==== 28-May-2017::20:38:22 ===
+connection <0.306.0> (127.0.0.1:56205 -> 127.0.0.1:5672 - rabbitConnectionFactory#73): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 28-May-2017::20:38:24 ===
+accepting AMQP connection <0.323.0> (127.0.0.1:56206 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 28-May-2017::20:38:24 ===
+Connection <0.323.0> (127.0.0.1:56206 -> 127.0.0.1:5672) has a client-provided name: rabbitConnectionFactory#54
+
+=INFO REPORT==== 28-May-2017::20:38:24 ===
+connection <0.323.0> (127.0.0.1:56206 -> 127.0.0.1:5672 - rabbitConnectionFactory#54): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 29-May-2017::00:27:01 ===
+closing AMQP connection <0.306.0> (127.0.0.1:56205 -> 127.0.0.1:5672 - rabbitConnectionFactory#73, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 29-May-2017::00:27:02 ===
+closing AMQP connection <0.323.0> (127.0.0.1:56206 -> 127.0.0.1:5672 - rabbitConnectionFactory#54, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 29-May-2017::09:54:13 ===
+Starting RabbitMQ 3.6.10 on Erlang 19.3
+Copyright (C) 2007-2017 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 29-May-2017::09:54:13 ===
+node           : rabbit@nando-pc
+home dir       : /Users/nando
+config file(s) : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : 01FDO1oh1yB1e+37VkJi1Q==
+log            : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/log/rabbitmq/rabbit@nando-pc.log
+sasl log       : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/log/rabbitmq/rabbit@nando-pc-sasl.log
+database dir   : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/lib/rabbitmq/mnesia/rabbit@nando-pc
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+Memory limit set to 5839MB of 14599MB total.
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+Enabling free disk space monitoring
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+Limiting to approx 10140 file handles (9124 sockets)
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+Starting rabbit_node_monitor
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 29-May-2017::09:54:14 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 29-May-2017::09:54:14 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 29-May-2017::09:54:17 ===
+accepting AMQP connection <0.286.0> (127.0.0.1:57534 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 29-May-2017::09:54:17 ===
+Connection <0.286.0> (127.0.0.1:57534 -> 127.0.0.1:5672) has a client-provided name: rabbitConnectionFactory#91
+
+=INFO REPORT==== 29-May-2017::09:54:17 ===
+connection <0.286.0> (127.0.0.1:57534 -> 127.0.0.1:5672 - rabbitConnectionFactory#91): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 29-May-2017::09:54:18 ===
+accepting AMQP connection <0.303.0> (127.0.0.1:57535 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 29-May-2017::09:54:18 ===
+Connection <0.303.0> (127.0.0.1:57535 -> 127.0.0.1:5672) has a client-provided name: rabbitConnectionFactory#99
+
+=INFO REPORT==== 29-May-2017::09:54:18 ===
+connection <0.303.0> (127.0.0.1:57535 -> 127.0.0.1:5672 - rabbitConnectionFactory#99): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 29-May-2017::11:05:04 ===
+closing AMQP connection <0.303.0> (127.0.0.1:57535 -> 127.0.0.1:5672 - rabbitConnectionFactory#99, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 29-May-2017::11:05:04 ===
+closing AMQP connection <0.286.0> (127.0.0.1:57534 -> 127.0.0.1:5672 - rabbitConnectionFactory#91, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 16-Jun-2017::16:19:11 ===
+Starting RabbitMQ 3.6.10 on Erlang 19.3
+Copyright (C) 2007-2017 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 16-Jun-2017::16:19:11 ===
+node           : rabbit@nando-pc
+home dir       : /Users/nando
+config file(s) : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : 01FDO1oh1yB1e+37VkJi1Q==
+log            : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/log/rabbitmq/rabbit@nando-pc.log
+sasl log       : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/log/rabbitmq/rabbit@nando-pc-sasl.log
+database dir   : /Users/nando/repos/feh-wilinando/cloud/config/server/src/main/resources/rabbitmq_server-3.6.10/var/lib/rabbitmq/mnesia/rabbit@nando-pc
+
+=INFO REPORT==== 16-Jun-2017::16:19:11 ===
+Memory limit set to 5986MB of 14966MB total.
+
+=INFO REPORT==== 16-Jun-2017::16:19:11 ===
+Enabling free disk space monitoring
+
+=INFO REPORT==== 16-Jun-2017::16:19:11 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 16-Jun-2017::16:19:12 ===
+Limiting to approx 10140 file handles (9124 sockets)
+
+=INFO REPORT==== 16-Jun-2017::16:19:12 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 16-Jun-2017::16:19:12 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 16-Jun-2017::16:19:12 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 16-Jun-2017::16:19:12 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 16-Jun-2017::16:19:12 ===
+Starting rabbit_node_monitor
+
+=INFO REPORT==== 16-Jun-2017::16:19:12 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-Jun-2017::16:19:12 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 16-Jun-2017::16:19:12 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 16-Jun-2017::16:19:12 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-Jun-2017::16:19:12 ===
+Server startup complete; 0 plugins started.

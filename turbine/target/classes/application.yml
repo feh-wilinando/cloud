@@ -1,0 +1,17 @@
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/,http://localhost:8013/eureka/
+server:
+  port: 8030
+
+info:
+  component: Turbine
+
+turbine:
+  clusterNameExpression: "'default'"
+  appConfig: EUREKA-CLIENT-SUBJECT,EUREKA-CLIENT-VERBS,EUREKA-CLIENT-ARTICLE,EUREKA-CLIENT-ADJECTIVE,EUREKA-CLIENT-NOUN
+
+management:
+  port: 8990
